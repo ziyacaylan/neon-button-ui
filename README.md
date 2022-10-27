@@ -76,7 +76,7 @@ class Example extends Component {
 }
 ```
 
-![gif](./HEAD/dist/React-App-Google-Chrome-2022-10-27-18-26-00.gif)
+<img src="./HEAD/dist/neon-button-gif.gif" align="center" widht="800px" height="600px">
 
 ## License
 
