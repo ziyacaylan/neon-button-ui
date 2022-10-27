@@ -1,0 +1,456 @@
+/* add css module styles here (optional) */
+:root {
+  box-sizing: border-box;
+
+  --ping-color: #f32196;
+  --pink-light-color: #ecbbd6;
+
+  --blue-color: #0d6efd;
+  --blue-light-color: #a7c0e6;
+
+  --purple-color: #6610f2;
+  --purple-light-color: #b09ece;
+
+  --red-color: #dc3545;
+  --red-light-color: #d19ea3;
+
+  --orange-color: #fd7e14;
+  --orange-light-color: #e4c2a6;
+
+  --yellow-color: #ffc107;
+  --yellow-light-color: #e5dab8;
+
+  --green-dark-color: #198754;
+  --green-dark-light-color: #a5d0bc;
+
+  --green-light-color: #20c997;
+  --green-light-light-color: #cbd8d4;
+
+  --cyan-color: #0dcaf0;
+  --cyan-light-color: #a0ced7;
+
+  --gray-color: #adb5bd;
+  --gray-light-color: #f9fafb;
+
+  --black-color: #000;
+  --black-light-color: #525252;
+  --white-color: #fff;
+}
+
+._3ybTi {
+  margin: 2em;
+  padding: 0.5em;
+  border: 2px solid #000;
+  font-size: 2em;
+  text-align: center;
+}
+
+/*button special classes start*/
+
+._3ybTi {
+  margin: 2em;
+  padding: 0.5em;
+  border: 2px solid #000;
+  font-size: 2em;
+  text-align: center;
+}
+._1Pz2d {
+  /* margin: 0 auto; */
+  position: relative;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-size: 1.1rem;
+  overflow: hidden;
+  transition: 0.2s;
+  border: 1px solid #cdcdcd;
+  border-radius: 6px;
+}
+._1Pz2d._2_CEJ {
+  background-color: var(--pink-light-color);
+}
+._1Pz2d._xHAXC {
+  background-color: var(--blue-light-color);
+}
+._1Pz2d._3Iyi7 {
+  background-color: var(--purple-light-color);
+}
+._1Pz2d._3nWpX {
+  background-color: var(--red-light-color);
+}
+._1Pz2d._2iAN7 {
+  background-color: var(--orange-light-color);
+}
+._1Pz2d._3kj3e {
+  background-color: var(--yellow-light-color);
+}
+._1Pz2d._17qZj {
+  background-color: var(--green-dark-light-color);
+}
+._1Pz2d._2NZEL {
+  background-color: var(--green-light-light-color);
+}
+._1Pz2d._3Ozbd {
+  background-color: var(--cyan-light-color);
+}
+._1Pz2d._os8Gl {
+  background-color: var(--black-light-color);
+}
+
+._1Pz2d:hover {
+  border-radius: 6px;
+  color: var(--white-color);
+}
+._1Pz2d._2_CEJ:hover {
+  background-color: var(--ping-color);
+  box-shadow: 0 0 10px var(--ping-color), 0 0 40px var(--ping-color),
+    0 0 80px var(--ping-color);
+  transition-delay: 0.5s;
+}
+._1Pz2d._xHAXC:hover {
+  background-color: var(--blue-color);
+  box-shadow: 0 0 10px var(--blue-color), 0 0 40px var(--blue-color),
+    0 0 80px var(--blue-color);
+  transition-delay: 0.5s;
+}
+._1Pz2d._3Iyi7:hover {
+  background-color: var(--purple-color);
+  box-shadow: 0 0 10px var(--purple-color), 0 0 40px var(--purple-color),
+    0 0 80px var(--purple-color);
+  transition-delay: 0.5s;
+}
+._1Pz2d._3nWpX:hover {
+  background-color: var(--red-color);
+  box-shadow: 0 0 10px var(--red-color), 0 0 40px var(--red-color),
+    0 0 80px var(--red-color);
+  transition-delay: 0.5s;
+}
+._1Pz2d._2iAN7:hover {
+  background-color: var(--orange-color);
+  box-shadow: 0 0 10px var(--orange-color), 0 0 40px var(--orange-color),
+    0 0 80px var(--orange-color);
+  transition-delay: 0.5s;
+}
+._1Pz2d._3kj3e:hover {
+  background-color: var(--yellow-color);
+  box-shadow: 0 0 10px var(--yellow-color), 0 0 40px var(--yellow-color),
+    0 0 80px var(--yellow-color);
+  transition-delay: 0.5s;
+}
+._1Pz2d._17qZj:hover {
+  background-color: var(--green-dark-color);
+  box-shadow: 0 0 10px var(--green-dark-color), 0 0 40px var(--green-dark-color),
+    0 0 80px var(--green-dark-color);
+  transition-delay: 0.5s;
+}
+._1Pz2d._2NZEL:hover {
+  background-color: var(--green-light-color);
+  box-shadow: 0 0 10px var(--green-light-color),
+    0 0 40px var(--green-light-color), 0 0 80px var(--green-light-color);
+  transition-delay: 0.5s;
+}
+._1Pz2d._3Ozbd:hover {
+  background-color: var(--cyan-color);
+  box-shadow: 0 0 10px var(--cyan-color), 0 0 40px var(--cyan-color),
+    0 0 80px var(--cyan-color);
+  transition-delay: 0.5s;
+}
+/* .btn.orange:hover {
+  background-color: var(--orange-color);
+  box-shadow: 0 0 10px var(--orange-color), 0 0 40px var(--orange-color),
+    0 0 80px var(--orange-color);
+  transition-delay: 1s;
+} */
+._1Pz2d._os8Gl:hover {
+  background-color: var(--black-color);
+  box-shadow: 0 0 10px var(--black-color), 0 0 40px var(--black-color),
+    0 0 80px var(--black-color);
+  transition-delay: 1s;
+}
+
+._1Pz2d span {
+  position: absolute;
+  display: block;
+  border-radius: 6px;
+}
+._1Pz2d span:nth-child(1) {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+}
+._1Pz2d._2_CEJ span:nth-child(1) {
+  background: linear-gradient(90deg, transparent, var(--ping-color));
+  animation: _jNEiT 1s linear infinite;
+}
+._1Pz2d._xHAXC span:nth-child(1) {
+  background: linear-gradient(90deg, transparent, var(--blue-color));
+  animation: _jNEiT 1s linear infinite;
+}
+._1Pz2d._3Iyi7 span:nth-child(1) {
+  background: linear-gradient(90deg, transparent, var(--purple-color));
+  animation: _jNEiT 1s linear infinite;
+}
+._1Pz2d._3nWpX span:nth-child(1) {
+  background: linear-gradient(90deg, transparent, var(--red-color));
+  animation: _jNEiT 1s linear infinite;
+}
+._1Pz2d._2iAN7 span:nth-child(1) {
+  background: linear-gradient(90deg, transparent, var(--orange-color));
+  animation: _jNEiT 1s linear infinite;
+}
+._1Pz2d._3kj3e span:nth-child(1) {
+  background: linear-gradient(90deg, transparent, var(--yellow-color));
+  animation: _jNEiT 1s linear infinite;
+}
+._1Pz2d._17qZj span:nth-child(1) {
+  background: linear-gradient(90deg, transparent, var(--green-dark-color));
+  animation: _jNEiT 1s linear infinite;
+}
+._1Pz2d._2NZEL span:nth-child(1) {
+  background: linear-gradient(90deg, transparent, var(--green-light-color));
+  animation: _jNEiT 1s linear infinite;
+}
+._1Pz2d._3Ozbd span:nth-child(1) {
+  background: linear-gradient(90deg, transparent, var(--cyan-color));
+  animation: _jNEiT 1s linear infinite;
+}
+._1Pz2d._os8Gl span:nth-child(1) {
+  background: linear-gradient(90deg, transparent, var(--black-color));
+  animation: _jNEiT 1s linear infinite;
+}
+@keyframes _jNEiT {
+  0% {
+    left: -100%;
+  }
+  50%,
+  100% {
+    left: 100%;
+  }
+}
+._1Pz2d:hover span:nth-child(1) {
+  left: 100%;
+  transition: 1s;
+  border-radius: 6px;
+}
+._1Pz2d span:nth-child(3) {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+}
+._1Pz2d._2_CEJ span:nth-child(3) {
+  background: linear-gradient(270deg, transparent, var(--ping-color));
+  animation: _1g3zc 1s linear infinite;
+  animation-delay: 0.5s;
+}
+._1Pz2d._xHAXC span:nth-child(3) {
+  background: linear-gradient(270deg, transparent, var(--blue-color));
+  animation: _1g3zc 1s linear infinite;
+  animation-delay: 0.5s;
+}
+._1Pz2d._3Iyi7 span:nth-child(3) {
+  background: linear-gradient(270deg, transparent, var(--red-color));
+  animation: _1g3zc 1s linear infinite;
+  animation-delay: 0.5s;
+}
+._1Pz2d._3nWpX span:nth-child(3) {
+  background: linear-gradient(270deg, transparent, var(--red-color));
+  animation: _1g3zc 1s linear infinite;
+  animation-delay: 0.5s;
+}
+._1Pz2d._2iAN7 span:nth-child(3) {
+  background: linear-gradient(270deg, transparent, var(--orange-color));
+  animation: _1g3zc 1s linear infinite;
+  animation-delay: 0.5s;
+}
+._1Pz2d._3kj3e span:nth-child(3) {
+  background: linear-gradient(270deg, transparent, var(--yellow-color));
+  animation: _1g3zc 1s linear infinite;
+  animation-delay: 0.5s;
+}
+._1Pz2d._17qZj span:nth-child(3) {
+  background: linear-gradient(270deg, transparent, var(--green-dark-color));
+  animation: _1g3zc 1s linear infinite;
+  animation-delay: 0.5s;
+}
+._1Pz2d._2NZEL span:nth-child(3) {
+  background: linear-gradient(270deg, transparent, var(--green-light-color));
+  animation: _1g3zc 1s linear infinite;
+  animation-delay: 0.5s;
+}
+._1Pz2d._3Ozbd span:nth-child(3) {
+  background: linear-gradient(270deg, transparent, var(--cyan-color));
+  animation: _1g3zc 1s linear infinite;
+  animation-delay: 0.5s;
+}
+._1Pz2d._os8Gl span:nth-child(3) {
+  background: linear-gradient(270deg, transparent, var(--black-color));
+  animation: _1g3zc 1s linear infinite;
+  animation-delay: 0.5s;
+}
+@keyframes _1g3zc {
+  0% {
+    right: -100%;
+  }
+  50%,
+  100% {
+    right: 100%;
+  }
+}
+._1Pz2d:hover span:nth-child(3) {
+  border-radius: 10px;
+  right: 100%;
+  transition: 1s;
+  transition-delay: 0.5s;
+}
+._1Pz2d span:nth-child(2) {
+  border-radius: 6px;
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+}
+._1Pz2d._2_CEJ span:nth-child(2) {
+  background: linear-gradient(180deg, transparent, var(--ping-color));
+  animation: _3JzI6 1s linear infinite;
+  animation-delay: 0.25s;
+}
+._1Pz2d._xHAXC span:nth-child(2) {
+  background: linear-gradient(180deg, transparent, var(--blue-color));
+  animation: _3JzI6 1s linear infinite;
+  animation-delay: 0.25s;
+}
+._1Pz2d._3Iyi7 span:nth-child(2) {
+  background: linear-gradient(180deg, transparent, var(--purple-color));
+  animation: _3JzI6 1s linear infinite;
+  animation-delay: 0.25s;
+}
+._1Pz2d._3nWpX span:nth-child(2) {
+  background: linear-gradient(180deg, transparent, var(--red-color));
+  animation: _3JzI6 1s linear infinite;
+  animation-delay: 0.25s;
+}
+._1Pz2d._2iAN7 span:nth-child(2) {
+  background: linear-gradient(180deg, transparent, var(--orange-color));
+  animation: _3JzI6 1s linear infinite;
+  animation-delay: 0.25s;
+}
+._1Pz2d._3kj3e span:nth-child(2) {
+  background: linear-gradient(180deg, transparent, var(--yellow-color));
+  animation: _3JzI6 1s linear infinite;
+  animation-delay: 0.25s;
+}
+._1Pz2d._17qZj span:nth-child(2) {
+  background: linear-gradient(180deg, transparent, var(--green-dark-color));
+  animation: _3JzI6 1s linear infinite;
+  animation-delay: 0.25s;
+}
+._1Pz2d._2NZEL span:nth-child(2) {
+  background: linear-gradient(180deg, transparent, var(--green-light-color));
+  animation: _3JzI6 1s linear infinite;
+  animation-delay: 0.25s;
+}
+._1Pz2d._3Ozbd span:nth-child(2) {
+  background: linear-gradient(180deg, transparent, var(--cyan-color));
+  animation: _3JzI6 1s linear infinite;
+  animation-delay: 0.25s;
+}
+._1Pz2d._os8Gl span:nth-child(2) {
+  background: linear-gradient(180deg, transparent, var(--black-color));
+  animation: _3JzI6 1s linear infinite;
+  animation-delay: 0.25s;
+}
+@keyframes _3JzI6 {
+  0% {
+    top: -100%;
+  }
+  50%,
+  100% {
+    top: 100%;
+  }
+}
+._1Pz2d:hover span:nth-child(2) {
+  top: 100%;
+  transition: 1s;
+  transition-delay: 0.25s;
+  border-radius: 6px;
+}
+._1Pz2d span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+}
+._1Pz2d._2_CEJ span:nth-child(4) {
+  background: linear-gradient(390deg, transparent, var(--ping-color));
+  animation: _3pqGT 1s linear infinite;
+  animation-delay: 0.75s;
+}
+._1Pz2d._xHAXC span:nth-child(4) {
+  background: linear-gradient(390deg, transparent, var(--blue-color));
+  animation: _3pqGT 1s linear infinite;
+  animation-delay: 0.75s;
+}
+._1Pz2d._3Iyi7 span:nth-child(4) {
+  background: linear-gradient(390deg, transparent, var(--purple-color));
+  animation: _3pqGT 1s linear infinite;
+  animation-delay: 0.75s;
+}
+._1Pz2d._3nWpX span:nth-child(4) {
+  background: linear-gradient(390deg, transparent, var(--red-color));
+  animation: _3pqGT 1s linear infinite;
+  animation-delay: 0.75s;
+}
+._1Pz2d._2iAN7 span:nth-child(4) {
+  background: linear-gradient(390deg, transparent, var(--orange-color));
+  animation: _3pqGT 1s linear infinite;
+  animation-delay: 0.75s;
+}
+._1Pz2d._3kj3e span:nth-child(4) {
+  background: linear-gradient(390deg, transparent, var(--yellow-color));
+  animation: _3pqGT 1s linear infinite;
+  animation-delay: 0.75s;
+}
+._1Pz2d._17qZj span:nth-child(4) {
+  background: linear-gradient(390deg, transparent, var(--green-dark-color));
+  animation: _3pqGT 1s linear infinite;
+  animation-delay: 0.75s;
+}
+._1Pz2d._2NZEL span:nth-child(4) {
+  background: linear-gradient(390deg, transparent, var(--green-light-color));
+  animation: _3pqGT 1s linear infinite;
+  animation-delay: 0.75s;
+}
+._1Pz2d._3Ozbd span:nth-child(4) {
+  background: linear-gradient(390deg, transparent, var(--cyan-color));
+  animation: _3pqGT 1s linear infinite;
+  animation-delay: 0.75s;
+}
+._1Pz2d._2iAN7 span:nth-child(4) {
+  background: linear-gradient(390deg, transparent, var(--orange-color));
+  animation: _3pqGT 1s linear infinite;
+  animation-delay: 0.75s;
+}
+._1Pz2d._os8Gl span:nth-child(4) {
+  background: linear-gradient(390deg, transparent, var(--black-color));
+  animation: _3pqGT 1s linear infinite;
+  animation-delay: 0.75s;
+}
+@keyframes _3pqGT {
+  0% {
+    bottom: -100%;
+  }
+  50%,
+  100% {
+    bottom: 100%;
+  }
+}
+._1Pz2d:hover span:nth-child(4) {
+  border-radius: 6px;
+  bottom: 100%;
+  transition: 1s;
+  transition-delay: 0.75s;
+}
+/*button special classes end*/
